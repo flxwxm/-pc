@@ -1,0 +1,118 @@
+
+/* banner */
+#banner{
+	width:100%;
+	min-width: 1280px; 
+	position: relative; 
+	height:300px;
+	margin-bottom: 20px;
+}
+#banner .img{
+	width:100%;
+	min-width: 1263px; 
+	height:300px; 
+	text-align:center;
+}
+#banner .img li{
+	position: absolute;
+	top:0; 
+	left:0;
+	background: blue;
+	width:100%;
+	height:300px;	
+}
+#banner .img img{
+	position: absolute;
+	top: 0; .
+	left: 50%;
+	margin: 0 0 0 -960px;
+}
+#banner .tab{
+	position: absolute; 
+	bottom:10px; 
+	right:10px; 
+}
+#banner .tab li{
+	float:left; 
+	background:url(../img/banner/tab.png) no-repeat ; 
+	width:30px; 
+	height: 30px;
+	padding:0 6px;
+}
+#banner .tab .active{
+	background:url(../img/banner/tab.png) no-repeat -50px 0;
+}
+
+/* cotent */
+#content{
+	width:1280px;
+	margin: 0 auto;}
+
+/* tour */
+#tour{
+	text-align:center;
+	background:#FF9F2C; 
+}
+#content a{
+	float: right;
+	display: block;
+	line-height: 30px;
+	padding:20px 90px 0 0;
+	color: blue;
+}
+#content a:hover{
+	color: #fff;
+}
+#content h2{
+	line-height: 50px;
+	text-align:left;
+	padding-left: 100px;
+	color: #fff;
+}
+#content figure{
+	display: inline-block;
+	width:350px;
+	padding:8px;
+	margin:0 10px 20px 10px;
+	text-align:left;
+	background: #fff;
+}
+#content figure img{
+	width:350px;
+	height:200px;
+
+}
+#content figure figcaption{
+	font-size: 18px;
+	font-weight:bold;	
+}
+#content figure p{
+	font-size: 14px;
+	text-indent: 1.5em;
+	line-height: 20px;
+}
+#content figure span{
+	color:#F05F04;
+	line-height: 30px;
+}
+#content figure strong{
+	font-size: 20px;
+}
+
+/* food */
+#food{
+	text-align:center;
+}
+
+#food h2{
+	color: #000;
+}
+#food figure{
+	border:2px solid #CFCFCF;
+}
+#food figure figcaption{
+	color: #F05F04;
+}
+
+/* content end */
+

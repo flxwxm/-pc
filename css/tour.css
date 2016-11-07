@@ -1,0 +1,216 @@
+/* banner */
+#banner{
+	width:100%;
+	min-width: 1280px; 
+	position: relative; 
+	height:300px;
+	margin-bottom: 20px;
+}
+#banner .img{
+	width:100%;
+	min-width: 1280px; 
+	height:300px; 
+	text-align:center;
+}
+#banner .img li{
+	position: absolute;
+	top:0; 
+	left:0;
+	background: blue;
+	width:100%;
+	height:300px;	
+}
+#banner .img img{
+	position: absolute;
+	top: 0; .
+	left: 50%;
+	margin: 0 0 0 -960px;
+}
+#banner .tab{
+	position: absolute; 
+	bottom:10px; 
+	right:10px; 
+}
+#banner .tab li{
+	float:left; 
+	background:url(../img/banner/tab.png) no-repeat ; 
+	width:30px; 
+	height: 30px;
+	padding:0 6px;
+}
+#banner .tab .active{
+	background:url(../img/banner/tab.png) no-repeat -50px 0;
+}
+
+/* content */
+
+#content{
+	width: 1280px;
+	margin: 0 auto 20px;
+}
+
+/* aside */
+#sidebar{
+
+	width: 280px;
+	background: #E0E0E0;
+	float: right;
+	padding: 10px;
+}
+#sidebar .same{
+	width: 280px;
+}
+#sidebar h3{
+	line-height: 50px;
+	height: 50px;
+	background: #E0E0E0;
+}
+#sidebar figure{
+	height: 100px;
+	padding-bottom: 20px;
+	line-height: 26px;
+	font-size: 14px;
+	background: #fff;
+}
+#sidebar figure:last-child{
+	padding-bottom: 0px;
+}
+#sidebar img{
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+#sidebar figcaption,#sidebar figure p{
+	margin-left: 106px;
+}
+#sidebar figure p{
+	display: -webkit-box !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	padding-right: 10px;
+	color: #A7A7A7;
+}
+#sidebar figure span{
+	display: block;
+	color: #A7A7A7;
+	padding: 6px 0 0 106px;
+}
+#sidebar figure strong{
+	font-weight: normal;
+	color: #FF8320;
+	margin-left: 50px;
+}
+#sidebar figure a:hover img{
+	opacity: 0.7;
+}
+#sidebar .hot{
+	margin-bottom: 20px;
+}
+#sidebar .hotel div{
+	background: #fff;
+	margin:0 0 1px 0px;
+	padding: 0 0 20px 10px;
+	line-height: 30px;
+	font-size: 14px;
+
+}
+#sidebar .hotel p{
+	color: #878686;
+}
+#sidebar .hotel strong{
+	color: red;
+}
+
+
+#nature h2,#strategy h2{
+	letter-spacing: 2px;
+	border-bottom: 2px solid #525252;
+	width:960px;
+	padding-bottom: 6px;
+	margin-bottom: 10px;
+}
+
+#nature .nat-list{
+	width: 220px;
+	box-shadow: 0 0 6px #A8A8A8;
+	display: inline-block;
+	margin: 0 20px 20px 0;
+	line-height: 24px;
+	height: 216px;
+	font-size: 14px;
+	position: relative;
+	cursor: pointer;
+}
+#nature .nat-list span,#nature .nat-list p{
+	padding: 0 10px;
+}
+#nature .nat-list span{
+	line-height: 36px;
+	color: #FF6F1C;
+	font-size: 12px;
+}
+#nature .nat-list em{
+	color: #898989;
+	padding-left: 58px;
+	font-style: normal;
+}
+#nature .nat-list strong{
+	font-size: 16px;
+}
+#nature .nat-list p{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box !important;
+	word-break: break-all;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+#nature .nat-list div{
+	padding: 20px 10px 0 10px;
+	line-height: 20px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+	height: 105px;
+	display: none;
+}
+#strategy{
+	margin-top: 40px;
+	letter-spacing: 10px;
+}
+#strategy .str-list{
+	position: relative;
+	width: 470px;
+	height: 200px;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 16px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#strategy h3{
+	line-height: 40px;
+}
+#strategy p{
+	font-size: 14px;
+}
+#strategy figcaption{
+	letter-spacing: 1px;
+	position: absolute;
+	bottom: -60px;
+	height:100px;
+	padding: 0 20px;
+	opacity: 0.8;
+	background: linear-gradient(#E7E7E7,#000);
+	transition: bottom 1s;
+	-webkit-transition: bottom 0.5s;
+}
+#strategy figcaption:hover{
+	bottom: 0;
+}
